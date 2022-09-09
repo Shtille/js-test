@@ -1,0 +1,50 @@
+html, body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+.c-editor {
+	position: relative;
+	width: 100%;
+	height: 80%;
+}
+.c-output-container {
+	width: 100%;
+	height: 20%;
+	border: 1px solid grey;
+	background-color: #e7e7e7;
+	display: inline-flex;
+	flex-direction: column;
+}
+.c-button-panel {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	background-color: #e7e7e7;
+	display: inline-flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	padding-left: 20px;
+}
+.c-button {
+	height: 36px;
+	background-color: #04AA6D;
+	border-radius: 4px;
+	color: white;
+	padding: 0px 10px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.c-button:hover {
+	background-color: #04882D;
+	color: white;
+}
+.c-output {
+	width: 100%;
+	flex: 1;
+	overflow: auto;
+	margin: 0px 10px;
+	background-color: white;
+}
